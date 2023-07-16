@@ -9,7 +9,7 @@ body {
 .header-area {
   background-color: #f4fcfd;
   padding: 10px;
-  height: 625px;
+  height: 652px;
 }
 .weCare {
   color: #38a998 !important;
@@ -35,6 +35,16 @@ body {
   font-size: 40px;
   font-weight: bold;
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featured-style {
+  color: #04a6c2 !important;
+  font-weight: bold;
+}
 .second-half {
   display: flex;
 }
@@ -46,7 +56,7 @@ body {
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  width: 100px;
+  width: 120px;
   height: 40px;
   border: none;
 }
