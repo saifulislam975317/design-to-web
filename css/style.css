@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-area {
+  background-color: #f4fcfd;
+  padding: 10px;
+  height: 625px;
+}
+.weCare {
+  color: #38a998 !important;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.navbar-area {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar-area li {
+  list-style: none;
+  padding: 10px;
+}
+.navbar-area li a {
+  color: black;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+}
+.second-half {
+  display: flex;
+}
+.second-half li a {
+  margin-right: 25px;
+}
+.book-now-btn {
+  background-color: #04a6c2;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+
+.description-section-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-side img {
+  width: 80%;
+}
+
+.left-side {
+  margin-left: 150px;
+}
+.right-side {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.details-info-area {
+  display: flex;
+}
+
+.info-left-side {
+  margin-right: 50px;
+}
+
+.info-left-side p {
+  margin-top: 4px;
+}
+
+.info-left-side h4 {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.info-right-side p {
+  margin-top: 4px;
+}
+
+.info-right-side h4 {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.various-info-area {
+  position: relative;
+}
+
+.information-area {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  right: 0px;
+  bottom: -102px;
+  width: 61%;
+}
+.information-area h3 {
+  font-size: 35px;
+  font-weight: bolder;
+  color: #04a6c2;
+}
+.icon {
+  color: #04a6c2;
+  font-size: 25px;
+  margin-right: 10px;
+}
